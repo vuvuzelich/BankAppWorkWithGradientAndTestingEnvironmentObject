@@ -14,7 +14,7 @@ struct SplashScreen: View {
     var body: some View {
         if isSwiped {
             withAnimation {
-                HomeView()
+                TabBarView()
             }
         } else {
             ZStack {

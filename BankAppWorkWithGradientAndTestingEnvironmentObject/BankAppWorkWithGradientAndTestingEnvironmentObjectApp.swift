@@ -11,7 +11,7 @@ import SwiftUI
 struct BankAppWorkWithGradientAndTestingEnvironmentObjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreen()
         }
     }
 }

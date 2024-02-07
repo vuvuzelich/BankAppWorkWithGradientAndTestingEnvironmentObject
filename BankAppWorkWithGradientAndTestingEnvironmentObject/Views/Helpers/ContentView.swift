@@ -7,20 +7,10 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     var body: some View {
         SplashScreen()
     }
 }
 
-struct HomeView: View {
-    var body: some View {
-        Text("Welcome to HomeView!")
-            .padding()
-    }
-}
-
-
-#Preview {
-    ContentView()
-}
